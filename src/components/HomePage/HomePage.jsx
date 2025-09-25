@@ -371,7 +371,7 @@ const HomePage = () => {
               <span className="mr-2">🏆</span>THÀNH TỰU NỔI BẬT
             </h3>
             
-            <div className="space-y-4">
+            <div className="space-y-4 text-gray-900">
               {/* Scale */}
               <div className="bg-blue-50 p-4 rounded-lg">
                 <h4 className="font-semibold text-blue-800 mb-2">📊 QUY MÔ</h4>
@@ -429,13 +429,13 @@ const HomePage = () => {
               <input
                 type="text"
                 placeholder="Nhập họ và tên của bạn..."
-                className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900"
               />
             </div>
             
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-2">Bạn là</label>
-              <select className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+              <select className="w-full px-4 py-2 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-900">
                 <option>Sinh viên hiện tại</option>
                 <option>Cựu sinh viên</option>
                 <option>Giảng viên</option>
@@ -450,7 +450,7 @@ const HomePage = () => {
               <textarea
                 rows="4"
                 placeholder="Chia sẻ cảm xúc, kỷ niệm đẹp, lời chúc mừng hoặc mong muốn dành cho OU nhân dịp 35 năm thành lập..."
-                className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none"
+                className="w-full px-4 py-3 border border-gray-200 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none text-gray-900"
               ></textarea>
             </div>
 
@@ -498,7 +498,7 @@ const HomePage = () => {
       {/* Recent Updates */}
       <div className="grid md:grid-cols-2 gap-6">
         <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-          <h3 className="text-lg font-semibold mb-4 flex items-center">
+          <h3 className="text-lg font-semibold mb-4 flex items-center text-gray-900">
             <Bell className="h-5 w-5 text-blue-600 mr-2" />
             Thông báo mới
           </h3>
@@ -521,21 +521,21 @@ const HomePage = () => {
         </div>
 
         <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
-          <h3 className="text-lg font-semibold mb-4 flex items-center">
+          <h3 className="text-lg font-semibold mb-4 flex items-center text-gray-900">
             <TrendingUp className="h-5 w-5 text-green-600 mr-2" />
             Hoạt động gần đây
           </h3>
           <div className="space-y-3">
             <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
               <div>
-                <p className="text-sm font-medium">Workshop Kỹ năng mềm</p>
+                <p className="text-sm font-medium text-gray-900">Workshop Kỹ năng mềm</p>
                 <p className="text-xs text-gray-600">22/10/2024 • Điều 2</p>
               </div>
               <span className="bg-green-100 text-green-700 px-2 py-1 rounded text-xs">+3 điểm</span>
             </div>
             <div className="flex justify-between items-center p-3 bg-gray-50 rounded-lg">
               <div>
-                <p className="text-sm font-medium">Tình nguyện mùa hè</p>
+                <p className="text-sm font-medium text-gray-900">Tình nguyện mùa hè</p>
                 <p className="text-xs text-gray-600">20/10/2024 • Điều 3</p>
               </div>
               <span className="bg-green-100 text-green-700 px-2 py-1 rounded text-xs">+5 điểm</span>
@@ -744,7 +744,7 @@ const HomePage = () => {
       </div>
 
       {/* Quick Actions */}
-      <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
+      <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 text-gray-900">
         <h3 className="text-lg font-semibold mb-4">Hành động nhanh</h3>
         <div className="grid md:grid-cols-3 gap-4">
           <button className="p-4 text-left border border-gray-200 rounded-lg hover:border-blue-300 hover:bg-blue-50 transition-colors">
@@ -770,7 +770,7 @@ const HomePage = () => {
   // Scholarships Page Component - Simple display only
   const ScholarshipsPage = () => (
     <div className="space-y-6">
-      <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+      <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 text-gray-900">
         <h2 className="text-2xl font-bold text-gray-900 mb-4">Các loại Học Bổng</h2>
         <p className="text-gray-600 mb-6">Tổng quan về các loại Học Bổng tại OU</p>
       </div>
